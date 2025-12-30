@@ -1,3 +1,5 @@
+"use client"
+
 import {
   PieChart,
   Pie,
@@ -6,10 +8,11 @@ import {
   Tooltip,
 } from "recharts";
 
-interface PieDataItem {
+type PieDataItem = {
   name: string;
   value: number;
-}
+  [key: string]: string | number;
+};
 
 interface PieChartComponentProps {
   data: PieDataItem[];

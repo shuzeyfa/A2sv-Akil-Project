@@ -1,3 +1,5 @@
+"use client"
+
 import AdminAnalytics from './AdminAnalytics';
 
 export default function AdminUsersPage() {

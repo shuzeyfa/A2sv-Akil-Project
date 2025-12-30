@@ -1,3 +1,5 @@
+"use client"
+
 import ApplicationCycles from './AdminCycle';
 
 export default function AdminUsersPage() {
